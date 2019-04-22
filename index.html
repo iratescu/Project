@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./events.js"></script>
+
+    <title> Subscribe to our newsletter </title>
+  </head>
+  <body>
+    <div class="banner">
+    </div>
+
+    <div id="container">
+      <div class="left">
+        <h1>Lorem Ipsum</h1>
+
+        <div class="newsletter_text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet feugiat ligula.
+            Nulla dolor nibh, ultrices at iaculis vel, tempus in massa. Donec placerat congue urna sit amet venenatis.
+            Morbi pharetra enim faucibus ipsum bibendum porta. Morbi mollis ligula ligula, eu egestas eros ultrices sit amet.
+            Praesent sapien arcu, rhoncus at dui ut, maximus porttitor mauris.
+          </p>
+          <p>
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            Praesent dignissim odio sit amet libero venenatis, vel pharetra sem volutpat.
+            Duis faucibus congue mattis. Curabitur lobortis tempor purus.
+            Vivamus consequat imperdiet velit eu scelerisque. Vivamus auctor sit amet velit a fermentum.
+          </p>
+        </div>
+      </div>
+      <div class="right">
+        <h1>Subscribe to our newsletter</h1>
+
+        <form class="newsletter_form" action="index.html" method="post">
+          <label for="First_name"> First Name</label>
+          <input class="details" type="text" name="First_name" id="First_name" placeholder="Enter your first name" required>
+
+          <label for="Last_name"> Last Name</label>
+          <input class="details" type="text" name="Last_name" id="Last_name" placeholder="Enter your last name" required>
+
+          <label for="email"> Email</label>
+          <input class="details" type="email" name="email" id="email" placeholder="Enter your email address" required>
+
+          <label for="Country">Choose country</label>
+          <select class="dropdown" name="country">
+            <option value="NL">Netherlands</option>
+            <option value="RO">Romania</option>
+            <option value="GE">Germany</option>
+            <option value="UK">United Kingdom</option>
+          </select>
+
+          <p>
+            <input type="radio" name="agree" value="Yes" id="agree" required>
+            I agree to <a href="https://google.com">terms and conditions</a>
+          </p>
+
+          <input class="submit" type="submit" name="submit" value="Subscribe">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

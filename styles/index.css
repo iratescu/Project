@@ -1,0 +1,78 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+
+.details {
+  width: 100%;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  width: 100px;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.newsletter_text {
+  margin: 10px;
+  font-size: 22px;
+  color: #263238;
+}
+
+.newsletter_form {
+  margin: 0px auto;
+  top:50%;
+  width:400px;
+  color: #263238;
+}
+
+#container {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+#container .left,
+#container .right {
+    display: inline-block;
+}
+
+.dropdown {
+  width: 110%;
+  height: 35px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#container .left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #FAFAFA;
+}
+#container .right {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: #ECEFF1;
+}
+
+.banner {
+  width: auto;
+  height: 200px;
+  margin-bottom: 5px;
+  background-image: url('../images/landscape.jpg');
+}
